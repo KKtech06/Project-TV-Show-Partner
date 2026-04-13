@@ -1,3 +1,17 @@
 #root {
   color: red;
 }
+
+#root .child {
+  color: blue;
+}
+#root .child .grandchild {
+  color: green;
+}
+
+body {
+  color: black;
+  text-align: center;
+  padding: 20px;
+}
+
