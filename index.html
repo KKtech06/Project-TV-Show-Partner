@@ -1,31 +1,35 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TV Show Project | Daniel Aderibigbe (Dan2Clouted)</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TV Show Project | Daniel Aderibigbe (Dan2Clouted)</title>
-  <link href="style.css" rel="stylesheet" />
-  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-</head>
+  <body>
+    <input id="search" placeholder="Search episodes..." />
+    <select id="show-select"></select>
 
-<body>
-  <input id="search" placeholder="Search episodes..." />
-  <select id="show-select"></select>
+    <p id="count"></p>
+    <p id="message">Loading...</p>
 
-  <p id="message">Loading...</p>
+    <div id="root"></div>
 
-  <div id="root"></div>
+    <script src="script.js"></script>
 
-  <script src="script.js"></script>
-
-  <div class="tvMaze">
-    <p>
-      Data originally sourced from
-      <a href="https://www.tvmaze.com" target="_blank" rel="noopener noreferrer">
-        TVMaze.com
-      </a>.
-    </p>
-  </div>
-</body>
+    <div class="tvMaze">
+      <p>
+        Data originally sourced from
+        <a
+          href="https://www.tvmaze.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          TVMaze.com </a
+        >.
+      </p>
+    </div>
+  </body>
 </html>
