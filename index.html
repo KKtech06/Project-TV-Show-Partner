@@ -1,33 +1,31 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TV Show Project | Daniel Aderibigbe (Dan2Clouted)</title>
-    <link href="style.css" rel="stylesheet" />
-    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-  </head>
 
-  <body>
-    <div id="root"></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TV Show Project | Daniel Aderibigbe (Dan2Clouted)</title>
+  <link href="style.css" rel="stylesheet" />
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+</head>
 
-    <!-- Loads a provided function called getAllEpisodes() which returns all episodes -->
-    <script src="episodes.js"></script>
+<body>
+  <input id="search" placeholder="Search episodes..." />
+  <select id="show-select"></select>
 
-    <!-- Loads YOUR javascript code -->
-    <script src="script.js"></script>
+  <p id="message">Loading...</p>
 
-    <div class="allEpisodes" id="allEpisodes"></div>
-    <div class="tvMaze">
-      <p>
-        Data originally sourced from
-        <a
-          href="https://www.tvmaze.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          >TVMaze.com</a
-        >. Visit their site for more information.
-      </p>
-    </div>
-  </body>
+  <div id="root"></div>
+
+  <script src="script.js"></script>
+
+  <div class="tvMaze">
+    <p>
+      Data originally sourced from
+      <a href="https://www.tvmaze.com" target="_blank" rel="noopener noreferrer">
+        TVMaze.com
+      </a>.
+    </p>
+  </div>
+</body>
 </html>
